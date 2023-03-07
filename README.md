@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/heoh888/FoodGB">
-    <img src="https://firebasestorage.googleapis.com/v0/b/project-shop-adbd5.appspot.com/o/logoGitHub.png?alt=media&token=2ce7b38e-3f81-46f3-a9ea-123f43c0ae53" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/Heoh888/SpaceX/main/SpaceX/Resources/Assets.xcassets/AppIcon.appiconset/120.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">FoodGB</h3>
