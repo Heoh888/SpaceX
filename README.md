@@ -4,7 +4,7 @@
     <img src="https://raw.githubusercontent.com/Heoh888/SpaceX/main/SpaceX/Resources/Assets.xcassets/AppIcon.appiconset/120.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">SpaceX/h3>
+  <h3 align="center">SpaceX</h3>
 
   <p align="center">
     Это учебный проект показывающий навыки в iOS разработки и знание языка Swift!
