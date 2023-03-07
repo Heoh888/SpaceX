@@ -12,6 +12,7 @@ struct SpaceXApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .backgroundStyle(.black)
         }
     }
 }
