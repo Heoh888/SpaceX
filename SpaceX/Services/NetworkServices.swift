@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-import MapKit
+import UIKit
 
 protocol NetworkServiceProtocol {
     func rocketsLoader() -> AnyPublisher<Rockets, NetworkError>
