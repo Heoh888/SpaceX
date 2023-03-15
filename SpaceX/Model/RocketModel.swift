@@ -33,6 +33,10 @@ struct RocketModel: Codable, Identifiable, Hashable{
         case firstFlight = "first_flight"
         case id, country
     }
+    
+    var rondomImageUrl:String {
+        flickrImages[Int.random(in: 0..<flickrImages.count)]
+    }
 }
 
 // MARK: - Diameter

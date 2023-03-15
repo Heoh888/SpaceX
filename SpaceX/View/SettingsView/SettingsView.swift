@@ -34,6 +34,7 @@ struct SettingsView: View {
                 ButtomSwitch(label: .diameter, switchableParameter: settings.diameter, units: ["ft", "m"])
                 ButtomSwitch(label: .weight, switchableParameter: settings.weight, units: ["ld", "kg"])
                 ButtomSwitch(label: .payload, switchableParameter: settings.payload, units: ["ft", "m"])
+                ButtomSwitch(label: .randomImage, switchableParameter: settings.randomImage, units: ["Yes", "No"])
             }
             .environmentObject(settings)
             Spacer()
