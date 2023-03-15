@@ -38,6 +38,7 @@ final class RocketViewModel: ObservableObject {
         case .diameter: return value ? "\(rocket.diameter.feet ?? 0)" : "\(rocket.diameter.meters ?? 0)"
         case .weight: return value ? "\(rocket.mass.lb)" : "\(rocket.mass.kg)"
         case .payload: return value ? "\(rocket.payloadWeights[0].lb)" : "\(rocket.payloadWeights[0].kg)"
+        case .randomImage: return ""
         }
     }
 }

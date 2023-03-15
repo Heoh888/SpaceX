@@ -37,7 +37,7 @@ struct ButtomSwitch: View {
                         
                         Text(units[1])
                     }
-                    .padding(.horizontal, 25)
+                    .padding(.horizontal, 20)
                     .foregroundColor(.gray)
                     
                     Text(switchableParameter ? units[0] : units[1])

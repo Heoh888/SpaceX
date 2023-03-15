@@ -107,7 +107,7 @@ struct RocketView: View {
                 }
                 .offset(y: -minY)
                 .onAppear {
-                    viewModel.getImage(from: rocket.flickrImages[0])
+                    viewModel.getImage(from: settings.randomImage ? rocket.rondomImageUrl : rocket.flickrImages[0])
                 }
         }
         .frame(height: 420)

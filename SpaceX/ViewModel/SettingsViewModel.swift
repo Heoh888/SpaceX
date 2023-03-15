@@ -12,6 +12,7 @@ enum SettingsKeys : String {
     case diameter = "Диаметр"
     case weight = "Масса"
     case payload = "Полезная нагрузка"
+    case randomImage = "Рандомное изображение"
 }
 
 final class SettingsViewModel: ObservableObject {
@@ -21,6 +22,7 @@ final class SettingsViewModel: ObservableObject {
     @Published var diameter = UserDefaults().getSetupKey(key: .diameter)
     @Published var weight = UserDefaults().getSetupKey(key: .weight)
     @Published var payload = UserDefaults().getSetupKey(key: .payload)
+    @Published var randomImage = UserDefaults().getSetupKey(key: .randomImage)
     
     // MARK: - Public functions
     func setSetupKey(valee: Bool, key: SettingsKeys) {
@@ -34,6 +36,8 @@ final class SettingsViewModel: ObservableObject {
             weight = UserDefaults().getSetupKey(key: .weight)
         case .payload:
             payload = UserDefaults().getSetupKey(key: .payload)
+        case .randomImage:
+            randomImage = UserDefaults().getSetupKey(key: .randomImage)
         }
     }
 }
